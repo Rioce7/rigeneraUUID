@@ -1,0 +1,721 @@
+{
+    "id_gruppo": "e1caac5c-12a7-4040-b7ca-2d8ac7ed6dd0",
+    "alias_xsd_atto": null,
+    "nome_xsd_atto": "DepositoCopiaOstensibile",
+    "nome_xsd_istanza_atto": null,
+    "nome_atto": "Curatore - Deposito copia ostensibile",
+    "namespace": "{NAMESPACE_SIECIC_CURATORE}",
+    "documenti_legali_obbligatori_da_firmare": [
+      "AttoPrincipale"
+    ],
+    "istanze_selezionabili": [
+      {
+        "valore": "depositoCopia",
+        "descrizione": "Istanza deposito copia",
+        "namespace": "http://schemi.processotelematico.giustizia.it/eventi/crisiimpresa",
+        "tipo_dichiarazione_istanza": "{ISTANZE_TIPI_ATTI_V7}"
+      }
+    ],
+    "tags": [
+      {
+        "id_atto": "9bf8b487-b426-4f01-b328-14c61f7e77c5",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_Fallimentare",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "b1afe13b-1bf8-410e-a57d-64cc5bfdd2ef",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_NuovoFallimentare",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "b56fd4a3-be58-4d3e-b6bb-849c421210cb",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_ConcordatoPreventivo",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "6a2de3b0-c512-495f-9aab-7816b2959609",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_NuovoConcordatoPreventivo",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "69e70e09-2985-430b-b6c0-8d26b2fc5160",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_AmministrazioneControllata",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "26442461-b50e-40de-9d27-0ff9c90e011d",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_LiquidazioneCoattaAmministrativa",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "e56bfef4-c132-4ae9-bb05-8b4100e8ee12",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_AmministrazioneGrandiImprese",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "10511cba-70ef-4bbf-8997-9a4177109465",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_AmministrazioneMarzano",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "9ebf4b5a-a92c-48f4-8c21-fd302a86cdb7",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_Ristrutturazione",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "0a4fb7ea-92d5-4182-954b-b2d6ed52827e",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_Cassazione",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "ba6c0907-58e0-430d-b817-77ae502f4576",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_AttoCivileAPagamento",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "596a5e2a-ab11-4e6e-a756-253f58697d63",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_AttoCivileEsenteLavoro",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "6850965b-2714-4da5-a850-bfe0e7f9e175",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_GiudiceDiPaceEsente",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "c410aa75-f64d-4ad1-8e3d-6daf12a412a4",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_AttoPenaleAPagamento",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "6e5d8cb2-024a-4b82-a38b-eadcedb59549",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_Esecuzioni",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "59b72d7a-d66c-453f-82d1-df931a1adf57",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_EsecuzioniLavoro",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "eb18cc8a-0953-4515-a120-c38e1a719a05",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_PianoConsumatore",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "2f65f321-33a2-489c-a06b-c05170ad4c39",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_AccordoComposizioneCrisi",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "9d0b1234-aedc-4083-b933-e627efb52dda",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_LiquidazionePatrimonioDebitore",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "912243ce-c8f7-431e-b41a-6096bd92d047",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_EsdebitazioneDebitoreIncapienteCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "e608ac3c-c582-417b-a4e4-430db58e8678",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_EsdebitazioneDebitoreIncapiente",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "e8d794a4-3f28-4b80-9efb-a9a032a6f366",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_LiquidazioneGiudizialeCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "81cabf33-6090-4cd0-a69a-236adf8b09f3",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_ConcordatoPreventivoOmologatoCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "46d6f294-f7e6-4723-a7cd-cd4ed9a2d573",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_AccordiRistrutturazioneCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "474f4f1f-3760-44b7-8b0e-0c34ef641c4d",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_LiquidazioneControllataCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "5ae5ddf2-2a05-467d-ba49-00d59af798ba",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_RistrutturazioneDebitiCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "dc6b8ff1-2893-43a0-b9e2-3b874dfef0a9",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_AmministrazioneStraordinariaProdiBisCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "6261064c-b320-4250-8d64-bf4e79d13057",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_LiquidazioneCoattaAmministrativaCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "94cc2a7b-507f-44ae-bab8-7f1d02cc978d",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_ConcordatoMinoreCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "2389ec49-d72f-4c12-99d1-9f549cfbc988",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_AmministrazioneStraordinariaMarzanoCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "71671803-3523-4ae5-a8b0-feeb6eb6d01b",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_AccordiPianoRistrutturazioneCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "d8ee9d67-1bc1-4ae2-b412-8439e02a1217",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_ConcordatoSemplificato",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "55e49bde-a069-40c8-97f8-6d86e591c6ca",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_ConcordatoSemplificatoCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "8219fe4f-1ef6-4f87-8f75-d6850a590046",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_Fallimentare",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "28f81004-ca42-4f28-827b-5d080203362b",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_NuovoFallimentare",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "54760bc7-e98f-453b-83b5-3baeaa29892f",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_ConcordatoPreventivo",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "3f1bb62b-d1b9-4da8-b679-52017166085a",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_NuovoConcordatoPreventivo",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "1e5da904-c38c-4240-a408-fe0df74c3986",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_AmministrazioneControllata",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "612f33a6-709b-41fa-9077-02739d480dc8",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_LiquidazioneCoattaAmministrativa",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "ee84a839-1a9c-4138-b340-5b5b78673109",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_AmministrazioneGrandiImprese",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "c73f1652-b870-4f4e-814e-4af05721d8c4",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_AmministrazioneMarzano",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "2c49cc41-00fc-405f-baba-35ee8917a17f",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_Ristrutturazione",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "34eab4f2-67bc-4f67-9b68-acf3799b9b60",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_PianoConsumatore",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "408ead86-8596-4e5e-b64f-7d3440bc3aee",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_AccordoComposizioneCrisi",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "c5a6de50-99e8-4ea1-9a4b-da5b3d238fe1",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_LiquidazionePatrimonioDebitore",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "bc74f274-fd8d-4c19-a7b5-179bdd84e8e6",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "PROCEDIMENTO_UNITARIO",
+        "rito": "FIX_PULiquidazioneGiudiziale",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "5387d0db-e516-4579-88a3-5586e927c7d1",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "PROCEDIMENTO_UNITARIO",
+        "rito": "FIX_PUFissazioneTermineDepositoPropAcco",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "5b1588c5-6f1b-4302-9196-7e37744b4b82",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "PROCEDIMENTO_UNITARIO",
+        "rito": "FIX_PUConcordatoPreventivo",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "85966df6-1eae-4423-8ad0-5c867868ba9d",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "PROCEDIMENTO_UNITARIO",
+        "rito": "FIX_PUAccordiRistrutturazione",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "eb5e850d-1400-4772-91ae-3e2a76f09260",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "PROCEDIMENTO_UNITARIO",
+        "rito": "FIX_PUDichiarazioneStatoInsolvenzaLCA",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "140c8f1e-4cd9-4f50-a501-cbd60d0f685f",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "PROCEDIMENTO_UNITARIO",
+        "rito": "FIX_PUDichiarazioneStatoInsolvenzaASP",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "02f53145-f680-4bcf-a174-e8ef0be236f3",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "PROCEDIMENTO_UNITARIO",
+        "rito": "FIX_PUDichiarazioneStatoInsolvenzaASM",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "6947aa29-675a-457a-81e0-bf123d1032fc",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "PROCEDIMENTO_UNITARIO",
+        "rito": "FIX_PURistrutturazioneDebitiConsumatore",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "224e39f0-db3c-4eef-bd61-71101fbf7f4c",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "PROCEDIMENTO_UNITARIO",
+        "rito": "FIX_PUConcordatoMinore",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "0eb68daa-9e8a-4dcd-b64f-fa3eb25b49cf",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "PROCEDIMENTO_UNITARIO",
+        "rito": "FIX_PULiquidazioneControllata",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "d4c8ba6c-eed7-4761-bb9c-cd4bbac984f8",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "PROCEDIMENTO_UNITARIO",
+        "rito": "FIX_PUPianoRistrutturazione",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "d5ae5cd7-c298-44ac-9812-4f3ebd2e7768",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_EsdebitazioneDebitoreIncapienteCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "0755ccf5-1a98-47bc-8d16-7579ad3b3a4c",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_EsdebitazioneDebitoreIncapiente",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "0540e959-abcf-40b7-8678-18268be7cc04",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_LiquidazioneGiudizialeCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "49056ce6-d24a-448e-bc4e-0bfcc6afe8bf",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_ConcordatoPreventivoOmologatoCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "59eb9d22-fea2-4067-b800-ade596303781",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_AccordiRistrutturazioneCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "7e8fedb2-f3cd-4012-8f72-89b4d3ea6eff",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_LiquidazioneControllataCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "bef6b2a9-4276-42d4-9506-57bec15b2d91",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_RistrutturazioneDebitiCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "46c3acf3-caaf-4cc1-a40d-3d30a63df220",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_AmministrazioneStraordinariaProdiBisCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "9d8e0411-9347-4d5c-ae33-0455060760b1",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_LiquidazioneCoattaAmministrativaCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "4eff2816-0962-4ac0-9d48-1d882cb1b5b6",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_ConcordatoMinoreCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "23ea362b-a5e3-41a5-8d5f-a3e78d47c499",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_AmministrazioneStraordinariaMarzanoCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "3b7a9d09-bfe0-4060-82d0-5000465c17cd",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_AccordiPianoRistrutturazioneCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "d6626fd3-dfa5-4bbb-a57f-b307f131e77f",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_ConcordatoSemplificato",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      },
+      {
+        "id_atto": "faeef6cd-a5c2-4974-bf51-86868c156d13",
+        "macro_categoria_xsd": "siecic",
+        "registro": "PROCC",
+        "ruolo": "VOLONTARIA_GIURISDIZIONE",
+        "rito": "FIX_ConcordatoSemplificatoCCI",
+        "fase": "",
+        "tipo_utente": "curatore",
+        "tipologia_atto": "corso causa"
+      }
+    ]
+  }
